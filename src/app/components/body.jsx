@@ -1,33 +1,244 @@
 import Image from "next/image"
+import BgImage from '../assets/background.png'
 import SeloQualidade from "../assets/Selo qualidade 1.svg"
 import AtendimentoIcon from "../assets/atendimento 1.svg"
+import IconeEstrela from "../assets/iconeestrela.png"
+import IconeGoogle from "../assets/icone do Google.png"
+
+
+
+
+
+
+
+import Botao from "./contactbutton"
+
 
 export default function body () {
     return (
+
         <div className="text-center">
-            <div className="text-center mt-10 text-gray font-extrabold">
+            <div className="text-center justify-center">
+                <Image className='inline' src={BgImage} alt={'background'}></Image>
+                <Botao></Botao>
+            </div>
+            <div className="text-center text-gray font-extrabold">
                 <p>Está a procura de <span className="text-primary-orange font-extrabold"> materiais elétricos</span></p>
                 <p>para todas as fases da sua obra?</p>
             </div>
             <div className="text-center h-full bg-[url('/imgs/backgroundlaranja.png')]  mt-10 py-10 text-gray flex-col bg-cover bg-right-bottom">
                 <p className="font-extrabold mb-10 text-xl">Prazer, somos a girolux!</p>
                 <div className=" ml-1 flex justify-center">
-                    <Image className="mr-1" src={AtendimentoIcon}></Image>
-                    <div>
+                    <Image className="mr-1" src={AtendimentoIcon} alt="icone-atendimento"></Image>
+                    <div className="text-left">
                         <p className="font-bold">Atendimento de excelência</p>
                         <p className="text-white">Profissionais capacitados com </p>
                         <p className="text-white">anos de experiência no mercado.</p>
                     </div>
                 </div>
                 <div className="mt-5 flex justify-center">
-                    <Image  className="mr-2"  src={SeloQualidade}></Image>
-                    <div>
+                    <Image  className="mr-2"  src={SeloQualidade} alt='icone-qualidade'></Image>
+                    <div className="text-left">
                         <p className="font-bold mr-10 "> Produtos de Qualidade</p>
                         <p className="text-white mr-10 ">Encontre marcas renomadas</p>
                         <p className="text-white mr-10 "> e garantia de fabricação</p>
                     </div>
                 </div>
+            </div>      
+            <div className="mt-5 ml-5 flex">
+                <div className="bg-primary-orange w-1.5 h-14 rounded-full mt-2"></div>
+                <div><h1 className="font-extrabold text-gray ml-10 mt-2 text-xl">Está construindo ou reformando?</h1>
+                    <p className="ml-4 text-primary-orange font-bold">Nosso compromisso é com seu lar único</p>
+                </div>
             </div>
+            <div className="mt-5">
+                <div className="text-left h-80 bg-[url('/imgs/background2.png')] bg-cover bg-no-repeat bg-right-bottom">
+                    <div className="pt-10 pl-5 text-white">
+                        <p className="font-extrabold text-3xl">Tudo em</p>
+                        <p className="font-extrabold text-3xl">infraestrutura!</p>
+                    </div>
+                    <div className="ml-5 mt-3 text-gray flex text-sm">
+                        <div>
+                            <div className="mt-3">
+                                <p>Tubulação</p>
+                                <div className="bg-gray w-10 h-1 rounded-full mt-3"></div>
+                            </div>
+                            <div className="mt-5">
+                                <p>Padrão</p>
+                                <p>de energia</p>
+                                <div className="bg-gray w-10 h-1 rounded-full mt-1"></div>
+                            </div>
+                        </div>
+                        <div className="ml-10">
+                            <div>
+                                <p>Eletrodutos</p>
+                                <p>Corrugados</p>
+                                <div className="bg-gray w-10 h-1 rounded-full mt-1"></div>
+                            </div>
+                            <div className="mt-5">
+                                <p>Quadros</p>
+                                <p>de distribuição</p>
+                                <div className="bg-gray w-10 h-1 rounded-full mt-1"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+                <div className="bg-[url('/imgs/background3.png')] bg-cover bg-no-repeat h-80 bg-right-bottom">
+                    <div className="text-right mr-10 pt-10 flex flex-col items-end">
+                        <div className="text-primary-orange pt-20 pr-3 font-extrabold text-xl">
+                            <p> Interruptores</p>
+                            <p className="pr-8"> e tomadas</p>
+                        </div>
+                         <div  className="text-gray text-xsm mr-3">
+                            <p className="font-bold">variedade e linhas exclusivas</p>
+                            <span className="text-start">
+                            <p>Para o seu ambiente</p>
+                            </span>
+                            <div className="bg-primary-orange w-5 h-0.5 rounded-full"></div>
+                         </div>
+                    </div>
+                </div>
+                <div className="bg-[url('/imgs/background5.png')] bg-cover bg-no-repeat h-80 bg-right-bottom">
+                    <div>
+                        <p className="text-primary-orange font-extrabold text-2xl pt-12 text-left pl-5">Iluminação</p>
+                        <div className="text-gray flex text-left text-sm pl-3 gap-5 font-semibold pt-2">
+                            <div>
+                                <p>Lâmpadas</p>
+                                <div className="bg-primary-orange w-10 h-0.5 rounded-full"></div>
+                                <p className="pt-3">Luminárias</p>
+                                <div className="bg-primary-orange w-10 h-0.5 rounded-full"></div>
+                                <p className="pt-3">Painel de Led</p>
+                                <div className="bg-primary-orange w-10 h-0.5 rounded-full"></div>
+                            </div>
+                            <div>
+                                <p>Plafon</p>
+                                <div className="bg-primary-orange w-10 h-0.5 rounded-full"></div>
+                                <p className="pt-3">Spots</p>
+                                <div className="bg-primary-orange w-10 h-0.5 rounded-full"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="bg-[url('/imgs/background4.png')] bg-cover h-80 bg-no-repeat bg-right-bottom ">
+                <Botao></Botao>
+                 <div className="flex flex-col items-end">
+                        <div className="text-white text-2xl font-extrabold text-left pr-5 pt-3">
+                            <div>
+                                <p>Condutores</p>
+                                <p>Elétricos</p>
+                            </div>
+                            <div className="text-gray text-xs font-bold text-left">
+                                <p>com as marcas preferidas </p>
+                                <p>pelos profissionais da área</p>
+                                <div className="bg-gray w-8 h-0.5 rounded-full mt-1"></div>
+                            </div>
+                        </div>
+                 </div>
+              </div>
+        
+                <div className="bg-[url('/imgs/background6.png')] bg-cover bg-no-repeat h-80 bg-right-bottom">
+                    <div className="text-left pt-10 ml-3">
+                    <h1 className="text-2xl font-bold text-primary-orange">Industrial</h1>
+                    <div className="text-sm mt-3">
+                        <p>Painéis de</p>
+                        <p>comando</p>
+                        <div className="bg-primary-orange w-8 h-0.5 rounded-full mt-1"></div>
+                        <p className="text-sm mt-1" >Acionamentos</p>
+                        <div className="bg-primary-orange w-8 h-0.5 rounded-full mt-1"></div>
+                        <p className="text-sm mt-1" >Eletrocalhas</p>
+                        <div className="bg-primary-orange w-8 h-0.5 rounded-full mt-1"></div>
+                        <p className="text-sm mt-1" >Automação</p>
+                        <div className="bg-primary-orange w-8 h-0.5 rounded-full mt-1"></div>
+                    </div>
+                    </div>
+                </div>
+            <div className="bg-primary-orange h-80 flex">
+                <div className="font-bold text-gray">
+                    <div className="mt-10 ">Desde 2019 <span className="font-regular">atendendo</span> Dourados-MS e região!</div>
+                    <div className="border-2 mx-8 mt-2 rounded-md text-2xl">+3000</div>
+                    <p className="font-regular ">clientes cadastrados</p>
+                </div>
+                <iframe width="180" height="315" src="https://www.youtube.com/embed/_EgU_7rzkEo?si=42zhpNmclXlGxeyM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+
+            <div className="bg-[url('/imgs/background7.png')] bg-cover bg-no-repeat h-full bg-right-bottom pb-10" >
+              <h1 className="text-gray text-xl font-bold">Avaliações da Girolux</h1>
+              <div className="flex justify-center">
+                <p className="font-semibold text-gray text-3xl pt-1 pr-2">4,9</p>
+                <Image src={IconeEstrela} className="h-10 w-10"></Image>
+                <Image src={IconeEstrela} className="h-10 w-10"></Image>
+                <Image src={IconeEstrela} className="h-10 w-10"></Image>
+                <Image src={IconeEstrela} className="h-10 w-10"></Image>
+                <Image src={IconeEstrela} className="h-10 w-10"></Image> 
+              </div>
+              <div>
+                   <div className="bg-dark-orange h-16 w-16 rounded-full relative -bottom-20 left-4"><p className="text-white pt-3.5 font-extrabold text-3xl">D</p></div>
+                   <div className="bg-gray h-24 mx-10 rounded-xl text-white">
+                     <h1 className="pt-2">Daniel Manica</h1>
+                     <div className="text-xsm  text-left pl-12" ><p>Tudo do gênero elétrico, melhor preço, garantia, ótimo atendimentoe</p>
+                     <p>o melhor café da cidade</p></div>
+                   </div>
+
+                   <div className="bg-dark-orange h-16 w-16 rounded-full relative -bottom-20 left-4"><p className="text-white pt-3.5 font-extrabold text-3xl">S</p></div>
+                   <div className="bg-gray h-full pb-3 mx-10 rounded-xl text-white">
+                     <h1 className="pt-2">Simone Lima</h1>
+                     <div className="text-xsm  text-left pl-12" ><p>Excelente estabelecimento! Possui um ótimo atendimento, todos os </p>
+                     <p>funcionários são muito educados. Te tratam super bem tanto quando</p>
+                     <p>você vai comprar ou quando precisar trocar algo. Possui preços justos.</p>
+                     <p>Recomendo!</p>
+                     </div>
+                   </div>
+              </div>
+              <div className="flex justify-center mt-2">
+                   <Image src={IconeGoogle}></Image>
+              </div>
+              <p className="text-xsm font-bold text-gray">Todas as avaliações são oficiais do Google.</p>
+              <p className="text-xsm text-gray">Confira mais 90 comentários na página do Google, no termo de pesquisa: Girolux Dourados.</p>
+              
+            </div>
+            
+            <div className="bg-[url('/imgs/background8.png')] bg-cover bg-no-repeat h-full bg-no-repeat bg-right-bottom">
+                <Botao></Botao>
+                
+                <h1 className="text-gray font-extrabold text-2xl">
+                   <p>Em parceria com</p>
+                    <p>renomados fornecedores!</p>
+                </h1>
+                <div className="text-white">
+                    <p>Com assistência técnica <span className="font-bold">e garantia rápida</span></p>
+                    <p className="font-bold">e sem burocracia.</p>
+                </div> 
+
+                <div className="pt-5 pb-5">
+                    <div className="flex justify-center gap-5">
+                    <Image src="/imgs/logos/andaluz.png" width={100} height={200}></Image>
+                    <Image src="/imgs/logos/avant.png" width={100} height={200}></Image>
+                    <Image src="/imgs/logos/BRUM.png" width={100} height={200}></Image>
+                    </div>
+                    <div className="flex justify-center pt-5 gap-5">
+                    <Image src="/imgs/logos/blumenau.png" width={100} height={200}></Image>
+                    <Image src="/imgs/logos/clamper.png" width={100} height={200}></Image>
+                    <Image src="/imgs/logos/COBRECOM.png" width={100} height={200}></Image>
+                    </div>
+
+                    <div className="flex justify-center pt-5 gap-5">
+                    <Image src="/imgs/logos/krona.png" width={100} height={200}></Image>
+                    <Image src="/imgs/logos/fame.png" width={100} height={200}></Image>
+                    <Image src="/imgs/logos/GALAXYLED.png" width={100} height={200}></Image>
+                    </div>
+ 
+                    <div className="flex justify-center pt-5 gap-5">
+                    <Image src="/imgs/logos/logo weg.png" width={100} height={200}></Image>
+                    <Image src="/imgs/logos/ventidelta.png" width={100} height={100}></Image>
+                    <Image src="/imgs/logos/margirius.png" width={100} height={200}></Image>
+                    </div>
+
+                </div>
+            </div>
+
+        
         </div>
     )
 }

@@ -8,9 +8,13 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontSize: {
+        xsm:'0.6rem',
+      }, 
       colors:{
         'gray': '#464646',
         'primary-orange': '#FE8900',
+        'dark-orange': '#FF6300',
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
