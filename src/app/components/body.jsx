@@ -38,7 +38,7 @@ export default function body () {
                 </div>
                 <div className="mt-5 flex justify-center">
                     <Image  className="mr-2" src={SeloQualidade} alt='icone-qualidade'></Image>
-                    <div className="text-left pl-3">
+                    <div className="text-left pl-6">
                         <p className="font-bold mr-10 "> Produtos de Qualidade</p>
                         <p className="text-white mr-10 ">Encontre marcas renomadas</p>
                         <p className="text-white mr-10 "> e garantia de fabricação</p>
@@ -52,12 +52,12 @@ export default function body () {
                 </div>
             </div>
             <div className="mt-5">
-                <div className="text-left h-80 bg-[url('/imgs/background2.png')] bg-cover bg-no-repeat bg-right-bottom">
+                <div className="text-left h-96 bg-[url('/imgs/background2.png')] bg-cover bg-no-repeat bg-left-bottom">
                     <div className="pt-10 pl-5 text-white">
                         <p className="font-extrabold text-3xl">Tudo em</p>
                         <p className="font-extrabold text-3xl">infraestrutura!</p>
                     </div>
-                    <div className="ml-5 mt-3 text-gray flex text-sm">
+                    <div className="ml-5 mt-3 text-gray flex font-medium">
                         <div>
                             <div className="mt-3">
                                 <p>Tubulação</p>
@@ -85,37 +85,37 @@ export default function body () {
                 </div>
             </div>
 
-                <div className="bg-[url('/imgs/background3.png')] bg-cover bg-no-repeat h-80 bg-right-bottom">
-                    <div className="text-right mr-10 pt-10 flex flex-col items-end">
-                        <div className="text-primary-orange pt-20 pr-3 font-extrabold text-xl">
+                <div className="bg-[url('/imgs/background3.png')] bg-cover bg-no-repeat h-96 bg-left">
+                    <div className="text-right mr-1 pt-10 flex flex-col items-end">
+                        <div className="text-primary-orange pt-12 pr-20 font-black text-xl">
                             <p> Interruptores</p>
                             <p className="pr-8"> e tomadas</p>
                         </div>
-                         <div  className="text-gray text-xsm mr-3 mt-5">
-                            <p className="font-bold">variedade e linhas exclusivas</p>
-                            <span className="text-start">
+                         <div  className="text-gray text-sm mr-3 mt-1">
+                            <p className="font-bold">Variedade e linhas exclusivas</p>
+                            <span className="text-start font-medium">
                             <p>Para o seu ambiente</p>
                             </span>
-                            <div className="bg-primary-orange w-5 h-0.5 rounded-full"></div>
+                            <div className="bg-gray w-5 h-0.5 rounded-full"></div>
                          </div>
                     </div>
                 </div>
                 <div className="bg-[url('/imgs/background5.png')] bg-cover bg-no-repeat h-80 bg-right-bottom">
                     <div>
-                        <p className="text-primary-orange font-extrabold text-2xl pt-12 text-left pl-5">Iluminação</p>
-                        <div className="text-gray flex text-left text-sm pl-3 gap-5 font-semibold pt-2">
+                        <p className="text-primary-orange font-black text-2xl pt-12 text-left pl-3">Iluminação</p>
+                        <div className="text-gray flex text-left text-sm pl-3 gap-5 font-medium pt-2">
                             <div>
                                 <p>Lâmpadas</p>
                                 <div className="bg-primary-orange w-10 h-0.5 rounded-full"></div>
-                                <p className="pt-3">Luminárias</p>
+                                <p className="pt-4">Luminárias</p>
                                 <div className="bg-primary-orange w-10 h-0.5 rounded-full"></div>
-                                <p className="pt-3">Painel de Led</p>
+                                <p className="pt-4">Painel de Led</p>
                                 <div className="bg-primary-orange w-10 h-0.5 rounded-full"></div>
                             </div>
                             <div>
                                 <p>Plafon</p>
                                 <div className="bg-primary-orange w-10 h-0.5 rounded-full"></div>
-                                <p className="pt-3">Spots</p>
+                                <p className="pt-4">Spots</p>
                                 <div className="bg-primary-orange w-10 h-0.5 rounded-full"></div>
                             </div>
                         </div>
@@ -124,13 +124,13 @@ export default function body () {
                 <div className="bg-[url('/imgs/background4.png')] bg-cover h-80 bg-no-repeat bg-right-bottom ">
                 <Botao></Botao>
                  <div className="flex flex-col items-end">
-                        <div className="text-white text-2xl font-extrabold text-left pr-5 pt-3">
+                        <div className="text-white text-2xl font-black text-left pr-5 pt-3">
                             <div>
                                 <p>Condutores</p>
                                 <p>Elétricos</p>
                             </div>
-                            <div className="text-gray text-xs font-bold text-left">
-                                <p>com as marcas preferidas </p>
+                            <div className="text-gray text-xs font-medium text-left">
+                                <p>Com as <span className="font-bold"> marcas preferidas </span>  </p>
                                 <p>pelos profissionais da área</p>
                                 <div className="bg-gray w-8 h-0.5 rounded-full mt-1"></div>
                             </div>
@@ -140,16 +140,16 @@ export default function body () {
         
                 <div className="bg-[url('/imgs/background6.png')] bg-cover bg-no-repeat h-80 bg-right-bottom">
                     <div className="text-left pt-10 ml-3">
-                    <h1 className="text-2xl font-bold text-primary-orange">Industrial</h1>
+                    <h1 className="text-2xl font-black text-primary-orange">Industrial</h1>
                     <div className="text-sm mt-3">
                         <p>Painéis de</p>
                         <p>comando</p>
                         <div className="bg-primary-orange w-8 h-0.5 rounded-full mt-1"></div>
-                        <p className="text-sm mt-1" >Acionamentos</p>
+                        <p className="text-sm mt-3" >Acionamentos</p>
                         <div className="bg-primary-orange w-8 h-0.5 rounded-full mt-1"></div>
-                        <p className="text-sm mt-1" >Eletrocalhas</p>
+                        <p className="text-sm mt-3" >Eletrocalhas</p>
                         <div className="bg-primary-orange w-8 h-0.5 rounded-full mt-1"></div>
-                        <p className="text-sm mt-1" >Automação</p>
+                        <p className="text-sm mt-3" >Automação</p>
                         <div className="bg-primary-orange w-8 h-0.5 rounded-full mt-1"></div>
                     </div>
                     </div>
@@ -157,14 +157,14 @@ export default function body () {
             <div className="bg-primary-orange h-80 flex">
                 <div className="font-bold text-gray">
                     <div className="mt-10 ">Desde 2019 <span className="font-regular">atendendo</span> Dourados-MS e região!</div>
-                    <div className="border-2 mx-8 mt-2 rounded-md text-2xl">+3000</div>
-                    <p className="font-regular ">clientes cadastrados</p>
+                    <div className="border-2 mx-8 mt-2 rounded-md text-2xl">+3.000</div>
+                    <p className="font-regular ">Clientes cadastrados</p>
                 </div>
                 <iframe width="145" height="max" className=" pl-3"src="https://www.youtube.com/embed/_EgU_7rzkEo?si=42zhpNmclXlGxeyM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
 
             <div className="bg-[url('/imgs/background7.png')] bg-cover bg-no-repeat h-full bg-right-bottom pb-10 pt-7" >
-              <h1 className="text-gray text-xl font-bold">Avaliações da Girolux</h1>
+              <h1 className="text-gray text-xl font-black">Avaliações da Girolux</h1>
               <div className="flex justify-center">
                 <p className="font-semibold text-gray text-3xl pt-1 pr-2">4,9</p>
                 <Image src={IconeEstrela} className="h-10 w-10"></Image>
@@ -203,10 +203,10 @@ export default function body () {
               </div>
             </div>
             
-            <div className="bg-[url('/imgs/background8.png')] bg-cover bg-no-repeat h-full bg-no-repeat bg-right-bottom">
+            <div className="bg-primary-orange">
                 <Botao></Botao>
                 
-                <h1 className="text-gray font-extrabold text-2xl">
+                <h1 className="text-gray font-black text-2xl">
                    <p>Em parceria com</p>
                     <p>renomados fornecedores!</p>
                 </h1>
