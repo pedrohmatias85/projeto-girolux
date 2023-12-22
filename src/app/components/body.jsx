@@ -52,7 +52,7 @@ export default function body () {
                 </div>
             </div>
             <div className="mt-5">
-                <div className="text-left h-96 bg-[url('/imgs/background2.png')] bg-cover bg-no-repeat bg-left-bottom">
+                <div className="text-left h-96 bg-[url('/imgs/background2.png')] bg-cover bg-no-repeat bg-center">
                     <div className="pt-10 pl-5 text-white">
                         <p className="font-extrabold text-3xl">Tudo em</p>
                         <p className="font-extrabold text-3xl">infraestrutura!</p>
@@ -156,7 +156,7 @@ export default function body () {
                 </div>
             <div className="bg-primary-orange h-80 flex">
                 <div className="font-bold text-gray">
-                    <div className="mt-10 ">Desde 2019 <span className="font-regular">atendendo</span> Dourados-MS e região!</div>
+                    <div className=" pl-3 mt-10 ">Desde 2019 <span className="font-regular">atendendo</span> Dourados-MS e região!</div>
                     <div className="border-2 mx-8 mt-2 rounded-md text-2xl">+3.000</div>
                     <p className="font-regular ">Clientes cadastrados</p>
                 </div>
