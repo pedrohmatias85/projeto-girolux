@@ -56,7 +56,7 @@ export default function body () {
             </div>
             
             <div className="mt-5">
-                <div className="text-left h-96 bg-[url('/imgs/background2.png')] bg-cover bg-no-repeat bg-center">
+                <div className="text-left h-96 bg-[url('/imgs/background2.png')] bg-cover bg-no-repeat bg-right">
                     <div className="pt-10 pl-5 text-white">
                         <p className="font-extrabold text-3xl">Tudo em</p>
                         <p className="font-extrabold text-3xl">infraestrutura!</p>
@@ -71,19 +71,20 @@ export default function body () {
                                 <p>Padrão</p>
                                 <p>de energia</p>
                                 <div className="bg-gray w-10 h-1 rounded-full mt-1"></div>
+                                <div className="mt-5">
+                                <p>Quadros</p>
+                                <p>de distribuição</p>
+                                <div className="bg-gray w-10 h-1 rounded-full mt-1"></div>
+                            </div>
                             </div>
                         </div>
-                        <div className="ml-10">
+                        <div className="ml-1 mt-3">
                             <div>
                                 <p>Eletrodutos</p>
                                 <p>Corrugados</p>
                                 <div className="bg-gray w-10 h-1 rounded-full mt-1"></div>
                             </div>
-                            <div className="mt-5">
-                                <p>Quadros</p>
-                                <p>de distribuição</p>
-                                <div className="bg-gray w-10 h-1 rounded-full mt-1"></div>
-                            </div>
+                            
                         </div>
                     </div>
                 </div>
@@ -203,7 +204,8 @@ export default function body () {
                    <Image src={IconeGoogle}></Image>
               </div>
               <p className="text-xsm font-bold text-gray">Todas as avaliações são oficiais do Google.</p>
-              <p className="text-xsm text-gray">Confira mais 90 comentários na página do Google, no termo de pesquisa: Girolux Dourados.</p>
+              <p className="text-xsm text-gray">Confira mais 90 comentários na página do Google, no termo de pesquisa:</p>
+              <p className="text-xsm text-gray">Girolux Dourados.</p>
               </div>
             </div>
             
