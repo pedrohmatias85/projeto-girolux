@@ -10,7 +10,7 @@ import IconeEmpresas from "../assets/Logos completos mobile.png"
 
 
 
-
+import BotaoVoador from "./floatingbutton"
 import Botao from "./contactbutton"
 
 
@@ -26,31 +26,35 @@ export default function body () {
                 <p>Está a procura de <span className="text-primary-orange font-extrabold"> materiais elétricos</span></p>
                 <p>para todas as fases da sua obra?</p>
             </div>
-            <div className="text-center h-full bg-[url('/imgs/backgroundlaranja.png')]  mt-10 py-10 text-gray flex-col bg-cover bg-right-bottom">
+            <div className="text-center h-full bg-[url('/imgs/backgroundlaranja.png')]  mt-10 py-10 text-gray bg-cover bg-right-bottom">
                 <p className="font-extrabold mb-10 text-xl">Prazer, somos a girolux!</p>
-                <div className=" ml-1 flex justify-center">
-                    <Image className="mr-1" src={AtendimentoIcon} alt="icone-atendimento"></Image>
-                    <div className="text-left pl-3">
+                <div className='flex justify-center'>
+                <div className=" ml-5">
+                    <Image className="mt-8" src={AtendimentoIcon} alt="icone-atendimento"></Image>
+                    <Image  className="mt-10" src={SeloQualidade} alt='icone-qualidade'></Image>
+                </div>
+                <div className="mt-5 ml-5">
+                    <div className="text-left">
                         <p className="font-bold">Atendimento de excelência</p>
                         <p className="text-white">Profissionais capacitados com </p>
                         <p className="text-white">anos de experiência no mercado.</p>
                     </div>
-                </div>
-                <div className="mt-5 flex justify-center">
-                    <Image  className="mr-2" src={SeloQualidade} alt='icone-qualidade'></Image>
-                    <div className="text-left pl-6">
-                        <p className="font-bold mr-10 "> Produtos de Qualidade</p>
-                        <p className="text-white mr-10 ">Encontre marcas renomadas</p>
-                        <p className="text-white mr-10 "> e garantia de fabricação</p>
+                    <div className="text-left mt-5">
+                        <p className="font-bold"> Produtos de Qualidade</p>
+                        <p className="text-white">Encontre marcas renomadas</p>
+                        <p className="text-white"> e garantia de fabricação</p>
                     </div>
                 </div>
-            </div>      
+            </div> 
+            </div> 
+
             <div className="mt-5 ml-5 flex">
                 <div className="bg-primary-orange w-1.5 h-14 rounded-full mt-2 "></div>
                 <div className=""><h1 className="font-extrabold text-gray mt-2 ml-2 text-xl text-left">Está construindo ou reformando?</h1>
                     <p className=" text-primary-orange font-bold text-left ml-2">Nosso compromisso é com seu lar único</p>
                 </div>
             </div>
+            
             <div className="mt-5">
                 <div className="text-left h-96 bg-[url('/imgs/background2.png')] bg-cover bg-no-repeat bg-center">
                     <div className="pt-10 pl-5 text-white">
@@ -219,8 +223,8 @@ export default function body () {
                     <Image src={IconeEmpresas}></Image> {/* ícones Novos */}
                 </div>
             </div>
-
-        
+             
+            <BotaoVoador></BotaoVoador>
         </div>
     )
 }
