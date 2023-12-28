@@ -19,35 +19,49 @@ export default function body () {
 
         <div className="text-center">
             <div className="text-center justify-center">
-                <Image className='inline' src={BgImage} alt={'background'}></Image>
+                <Image className='inline md:bg-cover' src={BgImage} alt={'background'}  ></Image>
                 <Botao></Botao>
             </div>
-            <div className="text-center text-gray font-extrabold text-lg">
+
+            <div className="md:flex justify-center gap-10">
+            <div className="text-center md text-gray font-extrabold text-lg md:text-2xl md:flex-col md:first:mt-36 ">
                 <p>Está a procura de <span className="text-primary-orange font-extrabold"> materiais elétricos</span></p>
                 <p>para todas as fases da sua obra?</p>
+                <div className="bg-primary-orange ml-40 w-14 h-1.5 rounded-full mt-2 md:hidden "></div>
+                <p className="font-extrabold mb-10 text-xl mt-10 md:text-center">Prazer, somos a girolux!</p>
+                
             </div>
-            <div className="text-center h-full bg-[url('/imgs/backgroundlaranja.png')]  mt-10 py-10 text-gray bg-cover bg-right-bottom">
-                <p className="font-extrabold mb-10 text-xl">Prazer, somos a girolux!</p>
-                <div className='flex justify-center'>
-                <div className=" ml-5">
-                    <Image className="mt-8" src={AtendimentoIcon} alt="icone-atendimento"></Image>
-                    <Image  className="mt-10" src={SeloQualidade} alt='icone-qualidade'></Image>
-                </div>
-                <div className="mt-5 ml-5">
-                    <div className="text-left">
+            <div className="text-center md:h-[50vh] bg-primary-orange md:bg-white mt-10 py-10 text-gray md:ml-5">
+                
+                <div className=' md:flex gap-5'>
+
+                    <div className="bg-primary-orange flex md:flex-col justify-center text-center rounded-2xl md:h-[30vh] md:w-[34vh]">
+                    <div className="md:pl-28 pr-3"><Image className="mt-3" src={AtendimentoIcon} alt="icone-atendimento"></Image></div>
+                    <div className="text-left md:text-center mt-1">
                         <p className="font-bold">Atendimento de excelência</p>
                         <p className="text-white">Profissionais capacitados com </p>
                         <p className="text-white">anos de experiência no mercado.</p>
                     </div>
-                    <div className="text-left mt-5">
-                        <p className="font-bold"> Produtos de Qualidade</p>
-                        <p className="text-white">Encontre marcas renomadas</p>
-                        <p className="text-white"> e garantia de fabricação</p>
                     </div>
-                </div>
-            </div> 
-            </div> 
 
+
+                <div className=" bg-primary-orange flex md:flex-col justify-center text-center rounded-2xl md:h-[30vh] md:w-[34vh] mt-5 md:mt-0">     
+                <div className="md:ml-32 mt-3 -ml-5"><Image  className="mt-1" src={SeloQualidade} alt='icone-qualidade'></Image></div>
+                        <div className="text-left md:text-center mt-1 pl-6">
+                            <p className="font-bold"> Produtos de Qualidade</p>
+                            <p className="text-white">Encontre marcas renomadas</p>
+                            <p className="text-white"> e garantia de fabricação</p>
+                        </div>
+                </div>
+                
+            
+            
+            
+            
+            </div> 
+            
+            </div> 
+            </div>
             <div className="mt-5 ml-5 flex">
                 <div className="bg-primary-orange w-1.5 h-14 rounded-full mt-2 "></div>
                 <div className=""><h1 className="font-extrabold text-gray mt-2 ml-2 text-xl text-left">Está construindo ou reformando?</h1>
@@ -56,7 +70,7 @@ export default function body () {
             </div>
             
             <div className="mt-5">
-                <div className="text-left h-96 bg-[url('/imgs/background2.png')] bg-cover bg-no-repeat bg-right">
+                <div className="text-left h-[50vh] bg-[url('/imgs/background2.png')] bg-cover bg-no-repeat bg-">
                     <div className="pt-10 pl-5 text-white">
                         <p className="font-extrabold text-3xl">Tudo em</p>
                         <p className="font-extrabold text-3xl">infraestrutura!</p>
