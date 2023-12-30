@@ -1,7 +1,7 @@
 import Image from "next/image"
 import BgImage from '../assets/background.png'
-import SeloQualidade from "../assets/Selo qualidade 1.svg"
-import AtendimentoIcon from "../assets/atendimento 1.svg"
+import SeloQualidade from "../assets/SeloQualidade.png"
+import AtendimentoIcon from "../assets/atendimento.png"
 import IconeEstrela from "../assets/iconeestrela.png"
 import IconeGoogle from "../assets/icone do Google.png"
 import IconeEmpresas from "../assets/Logos completos mobile.png"
@@ -28,68 +28,69 @@ export default function body () {
         <div className="text-center">
 
             {/*  Início da primeira tela */}
-            <div className="text-center justify-center xl:max-h-[60vh] md:max-h-[45vh]">
+            <div className="text-center justify-center xl:max-h-[60vh] md:max-h-[30vh]">
                 <Image className='inline md:hidden' src={BgImage} alt={'background'}  ></Image>
                 <Image className=' hidden md:block w-full' src={BackgroundDesktop}></Image>
                 <Botao></Botao>
             </div>
-            <div className="md:flex justify-center xl:gap-60 ">
-            <div className="text-center md:text-left md:text-4xl text-gray md:text-primary-orange font-extrabold text-lg md:text-2xl md:flex-col  md:mt-20 xl:mt-36 md:pl-10 ">
+            <div className="md:flex justify-between 2xl:mt-10 ">
+            <div className="text-center md:text-left md:text-2xl xl:text-4xl text-gray md:text-primary-orange font-extrabold text-lg md:flex-col md:pl-10 xl:mt-24">
                 <p>Está a procura de <span className="text-primary-orange font-extrabold md:bg-gray md:rounded-xl md:px-1"> materiais elétricos</span></p>
                 <p>para todas as fases da sua obra?</p>
                 <div className="bg-primary-orange ml-40 w-14 h-1.5 rounded-full mt-2 md:hidden "></div>
-                <p className="font-extrabold text-xl mt-10 md:text-left md:text-gray md:font-normal md:text-2xl">Prazer, somos a <span className="md:font-bold">girolux!</span></p> 
-                <div className="bg-gray w-14 h-1 rounded-full hidden md:block"></div>
+                <p className="font-extrabold text-xl mt-1 md:text-left md:text-gray md:font-normal xl:text-3xl">Prazer, somos a <span className="md:font-bold">Girolux!</span></p> 
+                <div className="bg-gray w-16 h-1 rounded-full hidden md:block"></div>
             </div>
-            <div className="text-center md:h-[50vh] bg-primary-orange md:bg-white mt-10 py-10 text-gray md:mr-10"> 
+
+            <div className="text-center bg-primary-orange md:bg-white text-gray md:mr-10 pt-5 md:text-xl"> 
                 <div className=' md:flex gap-5'>
-                    <div className="bg-primary-orange flex md:flex-col justify-center text-center rounded-2xl xl:h-[30vh] xl:w-[34vh] xl:h-[30vh]">
-                    <div className="md:pl-20 xl:pl-32 pr-3 pb-5"><Image className="mt-3" src={AtendimentoIcon} alt="icone-atendimento"></Image></div>
-                    <div className="text-left md:text-center mt-1">
-                        <p className="font-bold">Atendimento de excelência</p>
-                        <p className="text-white">Profissionais capacitados com </p>
-                        <p className="text-white">anos de experiência no mercado.</p>
-                    </div>
-                    </div>
-                <div className=" bg-primary-orange flex md:flex-col justify-center text-center rounded-2xl xl:h-[30vh] xl:w-[34vh] mt-5 md:mt-0">     
-                <div className="xl:ml-36 mt-3 -ml-5 md:ml-20 pb-5"><Image  className="mt-1" src={SeloQualidade} alt='icone-qualidade'></Image></div>
-                        <div className="text-left md:text-center mt-1 pl-6">
-                            <p className="font-bold"> Produtos de Qualidade</p>
-                            <p className="text-white">Encontre marcas renomadas</p>
-                            <p className="text-white"> e garantia de fabricação</p>
+                        <div className="bg-primary-orange flex md:flex-col text-center rounded-3xl  ">
+                            <div className="scale-50 md:scale-90 flex justify-center"><Image className="mt-3" src={AtendimentoIcon} alt="icone-atendimento"></Image></div>
+                            <div className="text-left md:text-center py-5 lg:px-5">
+                                <p className="font-bold lg:text-2xl">Atendimento de excelência</p>
+                                <p className="text-white">Profissionais capacitados com </p>
+                                <p className="text-white font-semibold">anos de experiência no mercado.</p>
+                            </div>
                         </div>
-                </div>
-            </div> 
+                        <div className=" bg-primary-orange flex md:flex-col text-center rounded-3xl">
+                            <div className="scale-50 md:scale-90 flex justify-center pt-4"><Image className="mt-1" src={SeloQualidade} alt='icone-qualidade'></Image></div>
+                            <div className="text-left md:text-center mt-5 lg:px-12">
+                                <p className="font-bold lg:text-2xl"> Produtos de qualidade</p>
+                                <p className="text-white">Encontre <span className="font-semibold">marcas renomadas</span></p>
+                                <p className="text-white font-semibold"> e garantia de fabricação</p>
+                            </div>
+                        </div>
+                </div> 
             </div> 
             </div>
             {/*  Final da primeira tela */}
 
-            <div className="mt-2 flex justify-center">
+            <div className="mt-2 flex justify-center md:mt-10">
                 <div className="bg-primary-orange w-1.5 h-14 rounded-full mt-2 md:hidden "></div>
                 <div className="text-left md:text-center ml-2 ">
-                    <h1 className="font-extrabold text-gray mt-2 text-xl md:font-black md:text-4xl">Está construindo ou reformando?</h1>
-                    <p className=" text-primary-orange font-bold md:font-black md:text-2xl ">Nosso compromisso é com seu lar único</p>
+                    <h1 className="font-extrabold text-gray mt-6 text-xl md:font-black md:text-4xl">Está construindo ou reformando?</h1>
+                    <p className=" text-primary-orange font-bold md:font-bold md:text-2xl ">Nosso compromisso é com seu lar único!</p>
                 </div>
             </div>
             
-             {/*  Início da segunda tela */}
+             {/*  Início da infraestrutura */}
 
-            <div className="mt-5 bg-primary-orange h-[50vh] gap-6 flex justify-center md:justify-between">
+            <div className="mt-5 bg-primary-orange md:h-[45] xl:h-[50vh] gap-6 flex justify-center md:justify-between">
                 <div className="text-left md:ml-20">
-                    <div className="pt-10 pl-5 text-white font-extrabold text-3xl xl:text-6xl text-center">
+                    <div className="pt-10 pl-5 text-white font-extrabold text-3xl xl:text-6xl text-left">
                         <p>Tudo em</p>
                         <p>infraestrutura!</p>
                     </div>
-                    <div className="ml-5 mt-10 text-gray flex font-medium xl:text-2xl ">
+                    <div className="ml-5 mt-10 text-gray flex font-medium xl:text-4xl gap-14 ">
                         <div>
-                            <div className="mt-4">
+                            <div className="lg:mt-6  xl:mt-10">
                                 <p>Tubulação</p>
-                                <div className="bg-gray w-10 h-1 rounded-full mt-3"></div>
+                                <div className="bg-gray w-20 h-1 rounded-full mt-3"></div>
                             </div>
                             <div className="mt-5">
                                 <p>Padrão</p>
                                 <p>de energia</p>
-                                <div className="bg-gray w-10 h-1 rounded-full mt-1"></div>
+                                <div className="bg-gray w-20 h-1 rounded-full mt-3"></div>
                                 
                             </div>
                         </div>
@@ -97,17 +98,17 @@ export default function body () {
                             <div>
                                 <p>Eletrodutos</p>
                                 <p>Corrugados</p>
-                                <div className="bg-gray w-10 h-1 rounded-full mt-1"></div>
+                                <div className="bg-gray w-20 h-1 rounded-full mt-3"></div>
                                 <div className="mt-5">
                                 <p>Quadros</p>
                                 <p>de distribuição</p>
-                                <div className="bg-gray w-10 h-1 rounded-full mt-1"></div>
+                                <div className="bg-gray w-20 h-1 rounded-full mt-3"></div>
                                 </div>
                             </div>       
                         </div>     
                     </div>
                 </div>
-                <div className="hidden md:flex">
+                <div className="hidden md:flex md:max-w-lg xl:max-w-full">
                 <Image src={IMGInfraestrutura} className="mt-4"></Image>
                 </div>
             </div>
