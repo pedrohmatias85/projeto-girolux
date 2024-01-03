@@ -28,13 +28,13 @@ export default function body () {
         <div className="text-center">
 
             {/*  Início da primeira tela */}
-            <div className="text-center justify-center xl:max-h-[60vh] md:max-h-[30vh]">
+            <div className="text-center justify-center xl:max-h-[60vh]">
                 <Image className='inline md:hidden' src={BgImage} alt={'background'}  ></Image>
                 <Image className=' hidden md:block w-full' src={BackgroundDesktop}></Image>
                 <Botao></Botao>
             </div>
-            <div className="md:flex justify-between 2xl:mt-10 ">
-            <div className="text-center md:text-left md:text-2xl xl:text-4xl text-gray md:text-primary-orange font-extrabold text-lg md:flex-col md:pl-10 xl:mt-24">
+            <div className="md:flex justify-between items-center 2xl:mt-10 ">
+            <div className="text-center md:text-left md:text-2xl xl:text-4xl text-gray md:text-primary-orange font-extrabold text-lg md:flex-col md:pl-10 ">
                 <p>Está a procura de <span className="text-primary-orange font-extrabold md:bg-gray md:rounded-xl md:px-1"> materiais elétricos</span></p>
                 <p>para todas as fases da sua obra?</p>
                 <div className="bg-primary-orange ml-40 w-14 h-1.5 rounded-full mt-2 md:hidden "></div>
@@ -163,7 +163,7 @@ export default function body () {
             {/* final da tela de iluminação */}
 
             {/* incio da tela de condutores */}
-                <div className="bg-primary-orange h-[35vh] md:h-[55vh] flex items-end md:block ">
+                <div className="bg-primary-orange h-[35vh] md:h-[55vh] flex items-end ">
                 <div className="hidden" ><Botao></Botao></div>
 
                 <div className="flex justify-between">
@@ -235,13 +235,13 @@ export default function body () {
 
              {/* início da tela do video] */}
 
-            <div className="bg-primary-orange h-80 flex pb-5 md:h-[50vh] justify-center md:justify-between pt-10 lg:pt-10">
-                <div className="font-bold text-gray  xl:mt-16 lg:text-4xl lg:ml-16">
+            <div className="bg-primary-orange flex pb-5 h-full justify-center md:justify-between pt-10 ">
+                <div className="font-bold text-gray lg:text-3xl xl:text-4xl lg:ml-16 lg:pt-2">
                     <div className="mt-10 ">Desde 2019 <span className="font-semibold">atendendo</span><p>Dourados-MS e região!</p> </div>
                     <div className="border-2 md:border-4  mx-8 mt-2 rounded-md text-2xl md:mt-8 md:h-16 md:rounded-3xl"><p className="md:mt-3 md:font-black md:text-4xl">+3.000</p></div>
                     <p className="font-semibold md:mt-5">Clientes cadastrados</p>
                 </div>
-                <div className="mt-10 lg:mr-40">
+                <div className="mt-5 xl:mr-40">
                 <p className="text-white hidden lg:block">Confira o depoimento dos nossos clientes e parceiros!</p>
                 <iframe  className="hidden lg:block " width="560" height="315" src="https://www.youtube.com/embed/0tOXxuLcaog?si=8fax3OgsGMsYPYbj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 <iframe  className="px-3 w-32 md:w-auto xl:w-auto md:hidden"src="https://www.youtube.com/embed/_EgU_7rzkEo?si=42zhpNmclXlGxeyM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -251,22 +251,22 @@ export default function body () {
              {/* final da tela do vídeo */}
 
              {/* início da tela de comentários */}
-            <div className="bg-[url('/imgs/background7.png')] bg-cover bg-no-repeat h-full lg:h-[70vh] bg-right-bottom pb-10  lg:flex justify-between" >
+            <div className="bg-white h-full bg-right-bottom xl:flex justify-between lg:pt-10 pb-10" >
               
-                 <div className=" lg:mt-36 xl:mt-26 lg:ml-10 xl:ml-7 pt-10">
-                    <div className=""> 
-                        <h1 className="text-gray text-xl font-black lg:text-5xl lg:text-left">Avaliações da Girolux</h1>
+                 <div className=" xl:mt-26 xl:ml-7 pt-10 ">
+                    <div className="flex flex-col items-center"> 
+                        <h1 className="text-gray text-xl font-black xl:text-5xl lg:text-left">Avaliações da Girolux</h1>
                         <div className="flex justify-left mt-3">
-                            <p className="font-semibold text-gray text-3xl pt-1 pr-2">4,9</p>
-                            <Image src={IconeEstrela} className="h-10 w-10"></Image>
-                            <Image src={IconeEstrela} className="h-10 w-10"></Image>
-                            <Image src={IconeEstrela} className="h-10 w-10"></Image>
-                            <Image src={IconeEstrela} className="h-10 w-10"></Image>
-                            <Image src={IconeEstrela} className="h-10 w-10"></Image>
+                            <p className="font-semibold text-gray text-3xl pt-1 pr-2 lg:text-5xl">4,9</p>
+                            <Image src={IconeEstrela} className="h-10 w-10 lg:h-14 lg:w-14"></Image>
+                            <Image src={IconeEstrela} className="h-10 w-10 lg:h-14 lg:w-14"></Image>
+                            <Image src={IconeEstrela} className="h-10 w-10 lg:h-14 lg:w-14"></Image>
+                            <Image src={IconeEstrela} className="h-10 w-10 lg:h-14 lg:w-14"></Image>
+                            <Image src={IconeEstrela} className="h-10 w-10 lg:h-14 lg:w-14"></Image>
                         </div>
                     </div>
                    
-                    <div className="hidden lg:flex items-center mt-20">
+                    <div className="hidden xl:flex items-center mt-10">
                     <div className=" flex justify-center align-middle items-center">
                         <Image className="" src={Google}></Image>
                     </div>
@@ -278,40 +278,42 @@ export default function body () {
 
                 </div>
                 <div>    
-                    <div className="pb-6">
-                        <div className="md:flex justify-center">
-                            <div className="bg-dark-orange h-16 w-16 rounded-full relative -bottom-20 left-4 md:left-16 md:mt-14"><p className="text-white pt-3.5 font-extrabold text-3xl">D</p></div>
-                            <div className="bg-gray h-24 mx-10 rounded-xl text-white xl:w-[80vh] md:h-[15vh] lg:w-[55vh] md:mt-20 md:mr-20">
+                    <div className="flex flex-col gap-5 lg:gap-10 xl:mr-32 text-white">
+                        <div className="md:flex justify-center ">
+                            {/*<div className="bg-dark-orange h-16 w-16 rounded-full relative -bottom-20 left-4 md:left-16 md:mt-14"><p className="text-white pt-3.5 font-extrabold text-3xl">D</p></div>*/}
+                            <div className="bg-gray max-w-xl pb-5 rounded-3xl">
                                 <h1 className="pt-2 md:text-xl md:font-bold">Daniel Manica</h1>
-                                <div className="text-xsm  text-left pl-12 md:mt-4 md:text-lg" ><p>Tudo do gênero elétrico, melhor preço, garantia, ótimo atendimento e o melhor café da cidade</p></div>
+                                <div className="text-xsm text-left md:mt-4 md:text-lg pl-20 pr-5" ><p>Tudo do gênero elétrico, melhor preço, garantia, ótimo atendimento e o melhor café da cidade</p></div>
                             </div>
                         </div>
                         <div className="md:flex justify-center">
-                            <div className="bg-dark-orange h-16 w-16 rounded-full relative -bottom-20 left-4 md:left-16 md:mt-14"><p className="text-white pt-3.5 font-extrabold text-3xl">S</p></div>
-                            <div className="bg-gray h-36 mx-10 rounded-xl text-white xl:w-[80vh] lg:w-[55vh] lg:h-[26vh] md:mt-20 md:mr-20">
-                                <div className="md:py-5">
+                            {/*<div className="bg-dark-orange h-16 w-16 rounded-full relative -bottom-20 left-4 md:left-16 md:mt-14"><p className="text-white pt-3.5 font-extrabold text-3xl">S</p></div>*/}
+                            <div className="bg-gray max-w-xl pb-5 rounded-3xl">
+                                <div className="gap-5">
                                     <h1 className="pt-2 md:text-xl md:font-bold">Simone Lima</h1>
-                                    <div className="text-xsm text-left pl-12 md:mt-4 md:text-lg" ><p>Excelente estabelecimento! Possui um ótimo atendimento, todos os </p>
-                                        <p>funcionários são muito educados. Te tratam super bem tanto quando</p>
-                                        <p>você vai comprar ou quando precisar trocar algo. Possui preços justos.</p>
-                                        <p>Recomendo!</p>
+                                    <div className="text-xsm text-left md:text-lg pl-20 pr-5">
+                                        <p>
+                                        Excelente estabelecimento! Possui um ótimo atendimento, todos os
+                                        funcionários são muito educados. Te tratam super bem tanto quando
+                                        você vai comprar ou quando precisar trocar algo. Possui preços justos.
+                                        Recomendo!
+                                        </p>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div className="lg:hidden">
+                </div>
+                <div className="xl:hidden my-5">
                         <div className="flex justify-center mt-2">
                             <Image className="md:scale-150" src={IconeGoogle}></Image>
                         </div>
-                        <div className="md:mt-10 text-xsm md:text-lg text-gray">
+                        <div className="mt-3 text-xsm md:text-lg text-gray">
                             <p className=" font-bold">Todas as avaliações são oficiais do Google.</p>
                             <p className="">Confira mais 90 comentários na página do Google, no termo de pesquisa:</p>
                             <p className="">Girolux Dourados.</p>
                         </div>
                     </div>
-                </div>
-
             </div>
 
             {/* final da tela de comentários */}
