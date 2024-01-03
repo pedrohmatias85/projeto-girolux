@@ -3,6 +3,7 @@ import iconezap from '../assets/Icone do Wpp.png'
 import iconefb from '../assets/facebook.png'
 import iconeinstagram from '../assets/Instagram.png'
 import Logogirolux from '../assets/girolux.PNG'
+import Link from "next/link"
 
 export default function Footer(){
    return(
@@ -26,8 +27,9 @@ export default function Footer(){
                   <h1 className="text-primary-orange text-lg font-bold pt-3" >Nossas Redes Sociais:</h1>
                   <div className="flex pl-1 gap-2">
                      <Image src={iconefb}></Image>
-                     <Image src={iconeinstagram}></Image>
-                     <p className="text-white">@giroluxdourados</p>
+                     <Link className='flex' href={'https://www.instagram.com/giroluxdourados/'}><Image src={iconeinstagram}></Image>
+                     <p className="text-white">@giroluxdourados</p></Link>
+                     
                   </div>
                </div>
             </div>
