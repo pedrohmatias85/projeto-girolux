@@ -230,7 +230,7 @@ export default function body () {
 
              {/* início da tela do video] */}
 
-            <div className="bg-primary-orange flex pb-5 h-full justify-center md:justify-between pt-10 xl:pt-24 2xl:pt-28 ">
+            <div className="bg-primary-orange flex pb-10 h-full justify-center md:justify-between pt-10 xl:pt-24">
                 <div className="font-bold text-gray lg:text-3xl xl:text-4xl lg:ml-16 lg:pt-2">
                     <div className="mt-10 ">Desde 2019 <span className="font-semibold">atendendo</span><p>Dourados-MS e região!</p> </div>
                     <div className="border-2 md:border-4  mx-8 mt-2 rounded-md text-2xl md:mt-8 md:h-16 md:rounded-3xl"><p className="md:mt-3 md:font-black md:text-4xl">+3.000</p></div>
@@ -246,7 +246,7 @@ export default function body () {
              {/* final da tela do vídeo */}
 
              {/* início da tela de comentários */}
-            <div className="bg-white h-full bg-right-bottom xl:flex justify-between lg:pt-10 pb-10" >
+            <div className="bg-white h-full bg-right-bottom xl:flex justify-between lg:pt-8 pb-10" >
               
                  <div className=" xl:mt-26 xl:ml-16 pt-10 ">
                     <div className="flex flex-col items-center xl:items-start pb-10"> 
