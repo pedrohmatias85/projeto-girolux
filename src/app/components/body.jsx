@@ -42,7 +42,7 @@ export default function body () {
                 <div className="bg-gray w-16 h-1 rounded-full hidden md:block"></div>
             </div>
 
-            <div className="text-center bg-primary-orange md:bg-white text-gray md:mr-10 pt-5 md:text-xl"> 
+            <div className="text-center bg-primary-orange md:bg-white text-gray md:mr-16 pt-5 md:text-xl"> 
                 <div className=' md:flex gap-5'>
                         <div className="bg-primary-orange flex md:flex-col text-center rounded-3xl  ">
                             <div className="scale-50 md:scale-90 flex justify-center"><Image className="mt-3" src={AtendimentoIcon} alt="icone-atendimento"></Image></div>
@@ -108,7 +108,7 @@ export default function body () {
                         </div>     
                     </div>
                 </div>
-                <div className="hidden md:flex md:max-w-lg xl:max-w-full">
+                <div className="hidden md:flex max-w-[40%]">
                 <Image src={IMGInfraestrutura} className="mt-4"></Image>
                 </div>
             </div>
@@ -122,11 +122,11 @@ export default function body () {
                     </div>
 
                     <div className=" text-left md:text-right md:pr-14 xl:pr-16 md:pt-12 xl:pt-10">
-                        <div className="text-primary-orange pt-20 pr-1 font-black md:text-6xl ">
+                        <div className="text-primary-orange pt-20 font-black md:text-6xl ">
                             <p> Interruptores</p>
                             <p className=""> e tomadas</p>
                         </div>
-                         <div  className="text-gray text-sm md:text-2xl mr-3 mt-3">
+                         <div  className="text-gray text-sm md:text-2xl mt-3">
                             <p className="font-bold">Variedade e linhas exclusivas</p>
                             <span className=" font-medium">
                             <p>Para o seu ambiente</p>
@@ -158,21 +158,21 @@ export default function body () {
                             </div>
                         </div>    
                     </div>
-                    <div className="md:mr-32 flex scale-y-75 md:scale-y-100"><Image src={IMGLampadas} className=""></Image></div>
+                    <div className="md:mr-16 flex scale-y-75 md:scale-y-100"><Image src={IMGLampadas} className=""></Image></div>
                 </div>
             {/* final da tela de iluminação */}
 
             {/* incio da tela de condutores */}
-                <div className="bg-primary-orange h-[35vh] md:h-[55vh] flex items-end ">
+                <div className="bg-primary-orange h-[35vh] md:h-[55vh] flex justify-between">
                 <div className="hidden" ><Botao></Botao></div>
 
-                <div className="flex justify-between">
+                
                     <div className="flex items-end">
-                    <Image src={IMGCondutores} className="h-[] w-[]"></Image>
+                    <Image src={IMGCondutores}></Image>
                     </div>
 
-                    <div className="xl:pr-16 pb-10">
-                        <div className="text-white text-2xl font-black text-left pr-5  md:text-6xl md:mt-20 text-right">
+                    <div className="lg:pr-16">
+                        <div className="text-white text-2xl font-black text-left md:text-6xl md:mt-20 text-right">
                             <div>
                                 <p>Condutores</p>
                                 <p>Elétricos</p>
@@ -184,7 +184,7 @@ export default function body () {
                             </div>
                         </div>      
                  </div>
-                 </div>
+                 
                  </div>
             {/* final da tela de condutores */}
         
@@ -194,8 +194,8 @@ export default function body () {
                     <div className="text-left pt-14 xl:pt-20 ml-3 xl:ml-16">
                     <h1 className="text-2xl md:text-6xl font-black text-primary-orange">Industrial</h1>
                         <div className="text-gray text-sm mt-3 md:mt-10 md:text-4xl font-normal md:flex md:gap-20">
-                        <div className=" flex gap-6">
-                            <div className="flex flex-col gap-6">
+                        <div className=" flex gap-14">
+                            <div className="flex flex-col gap-8">
                                 <div>
                                     <p>Painéis de comando</p>
                                     <div className="bg-primary-orange w-10 h-0.5 rounded-full md:w-20 md:h-1"></div>
@@ -206,7 +206,7 @@ export default function body () {
                                 </div>
                             </div>
 
-                            <div className="flex flex-col gap-6">
+                            <div className="flex flex-col gap-8">
                                 <div>
                                     <p className="md:" >Eletrocalhas</p>
                                     <div className="bg-primary-orange w-10 h-0.5 rounded-full md:w-20 md:h-1"></div>
@@ -217,16 +217,11 @@ export default function body () {
                                 </div>
                             </div>
                             </div>
-                            
-                                 
-                                
-
-
                         </div>
                     
                     </div>
 
-                    <div className="mt-10 md:mt-0  ">
+                    <div className="mt-5">
                         <Image className="" src={IMGestrutura}></Image>
                     </div>
                 </div>
@@ -235,13 +230,13 @@ export default function body () {
 
              {/* início da tela do video] */}
 
-            <div className="bg-primary-orange flex pb-5 h-full justify-center md:justify-between pt-10 ">
+            <div className="bg-primary-orange flex pb-5 h-full justify-center md:justify-between pt-10 xl:pt-24 2xl:pt-28 ">
                 <div className="font-bold text-gray lg:text-3xl xl:text-4xl lg:ml-16 lg:pt-2">
                     <div className="mt-10 ">Desde 2019 <span className="font-semibold">atendendo</span><p>Dourados-MS e região!</p> </div>
                     <div className="border-2 md:border-4  mx-8 mt-2 rounded-md text-2xl md:mt-8 md:h-16 md:rounded-3xl"><p className="md:mt-3 md:font-black md:text-4xl">+3.000</p></div>
                     <p className="font-semibold md:mt-5">Clientes cadastrados</p>
                 </div>
-                <div className="mt-5 xl:mr-40">
+                <div className="mt-5 xl:mr-16">
                 <p className="text-white hidden lg:block">Confira o depoimento dos nossos clientes e parceiros!</p>
                 <iframe  className="hidden lg:block " width="560" height="315" src="https://www.youtube.com/embed/0tOXxuLcaog?si=8fax3OgsGMsYPYbj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 <iframe  className="px-3 w-32 md:w-auto xl:w-auto md:hidden"src="https://www.youtube.com/embed/_EgU_7rzkEo?si=42zhpNmclXlGxeyM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -253,10 +248,10 @@ export default function body () {
              {/* início da tela de comentários */}
             <div className="bg-white h-full bg-right-bottom xl:flex justify-between lg:pt-10 pb-10" >
               
-                 <div className=" xl:mt-26 xl:ml-7 pt-10 ">
-                    <div className="flex flex-col items-center"> 
+                 <div className=" xl:mt-26 xl:ml-16 pt-10 ">
+                    <div className="flex flex-col "> 
                         <h1 className="text-gray text-xl font-black xl:text-5xl lg:text-left">Avaliações da Girolux</h1>
-                        <div className="flex justify-left mt-3">
+                        <div className="flex  mt-3">
                             <p className="font-semibold text-gray text-3xl pt-1 pr-2 lg:text-5xl">4,9</p>
                             <Image src={IconeEstrela} className="h-10 w-10 lg:h-14 lg:w-14"></Image>
                             <Image src={IconeEstrela} className="h-10 w-10 lg:h-14 lg:w-14"></Image>
@@ -278,7 +273,7 @@ export default function body () {
 
                 </div>
                 <div>    
-                    <div className="flex flex-col gap-5 lg:gap-10 xl:mr-32 text-white">
+                    <div className="flex flex-col gap-5 lg:gap-10 xl:mr-16 text-white">
                         <div className="md:flex justify-center ">
                             {/*<div className="bg-dark-orange h-16 w-16 rounded-full relative -bottom-20 left-4 md:left-16 md:mt-14"><p className="text-white pt-3.5 font-extrabold text-3xl">D</p></div>*/}
                             <div className="bg-gray max-w-xl pb-5 rounded-3xl">
