@@ -121,7 +121,7 @@ export default function body () {
                          <Image src={IMGtomadas}></Image>
                     </div>
 
-                    <div className=" text-left md:text-right md:pr-14 xl:pr-52 md:pt-12 xl:pt-10">
+                    <div className=" text-left md:text-right md:pr-14 xl:pr-16 md:pt-12 xl:pt-10">
                         <div className="text-primary-orange pt-20 pr-1 font-black md:text-6xl ">
                             <p> Interruptores</p>
                             <p className=""> e tomadas</p>
@@ -163,15 +163,16 @@ export default function body () {
             {/* final da tela de iluminação */}
 
             {/* incio da tela de condutores */}
-                <div className="bg-primary-orange h-[45vh] md:h-[50vh] flex justify-between">
+                <div className="bg-primary-orange h-[35vh] md:h-[55vh] flex items-end md:block ">
                 <div className="hidden" ><Botao></Botao></div>
 
+                <div className="flex justify-between">
+                    <div className="flex items-end">
+                    <Image src={IMGCondutores} className="h-[] w-[]"></Image>
+                    </div>
 
-                <div className="flex items-end xl:ml-48">
-                    <div><Image src={IMGCondutores} className=""></Image></div>
-                 </div>
-                 <div className="flex flex-col items-end">
-                        <div className="text-white text-2xl font-black text-left pr-5 pt-10 lg:mr-16 xl:mr-96 md:text-6xl md:mt-20 text-right">
+                    <div className="xl:pr-16 pb-10">
+                        <div className="text-white text-2xl font-black text-left pr-5  md:text-6xl md:mt-20 text-right">
                             <div>
                                 <p>Condutores</p>
                                 <p>Elétricos</p>
@@ -179,9 +180,10 @@ export default function body () {
                             <div className="text-gray text-sm font-medium text-left md:text-2xl text-right xl:text-3xl xl:mt-5">
                                 <p>Com as <span className="font-bold"> marcas preferidas </span>  </p>
                                 <p>pelos profissionais da área</p>
-                                <div className="bg-gray w-8 h-0.5 rounded-full mt-1 ml-32 md:w-16 md:h-1.5 md:ml-80 md:mt-1"></div>
+                                <div className="bg-gray w-8 h-0.5 rounded-full mt-1 ml-32 md:w-16 md:h-1.5 md:ml-96 md:mt-1"></div>
                             </div>
                         </div>      
+                 </div>
                  </div>
                  </div>
             {/* final da tela de condutores */}
@@ -192,25 +194,39 @@ export default function body () {
                     <div className="text-left pt-14 xl:pt-20 ml-3 xl:ml-16">
                     <h1 className="text-2xl md:text-6xl font-black text-primary-orange">Industrial</h1>
                         <div className="text-gray text-sm mt-3 md:mt-10 md:text-4xl font-normal md:flex md:gap-20">
-                            <div className="">
-                                <p>Painéis de</p>
-                                 <p>comando</p>
-                                 <div className="bg-primary-orange w-10 h-0.5 rounded-full md:w-20 md:h-1"></div>
-                                <p className="md:mt-10" >Acionamentos</p>
-                                <div className="bg-primary-orange w-10 h-0.5 rounded-full md:w-20 md:h-1"></div>      
+                        <div className=" flex gap-6">
+                            <div className="flex flex-col gap-6">
+                                <div>
+                                    <p>Painéis de comando</p>
+                                    <div className="bg-primary-orange w-10 h-0.5 rounded-full md:w-20 md:h-1"></div>
+                                </div>
+                                <div>
+                                    <p className="" >Acionamentos</p>
+                                    <div className="bg-primary-orange w-10 h-0.5 rounded-full md:w-20 md:h-1"></div>
+                                </div>
                             </div>
-                            <div className="">
-                                 <p className="md:mt-10" >Eletrocalhas</p>
-                                 <div className="bg-primary-orange w-10 h-0.5 rounded-full md:w-20 md:h-1"></div>
-                                <p className="md:mt-10" >Automação</p>
-                                <div className="bg-primary-orange w-10 h-0.5 rounded-full md:w-20 md:h-1"></div>
+
+                            <div className="flex flex-col gap-6">
+                                <div>
+                                    <p className="md:" >Eletrocalhas</p>
+                                    <div className="bg-primary-orange w-10 h-0.5 rounded-full md:w-20 md:h-1"></div>
+                                </div>
+                                <div>
+                                    <p className="md:" >Automação</p>
+                                    <div className="bg-primary-orange w-10 h-0.5 rounded-full md:w-20 md:h-1"></div>
+                                </div>
                             </div>
+                            </div>
+                            
+                                 
+                                
+
 
                         </div>
                     
                     </div>
 
-                    <div className="mt-10 md:mt-0 hidden ">
+                    <div className="mt-10 md:mt-0  ">
                         <Image className="" src={IMGestrutura}></Image>
                     </div>
                 </div>
@@ -219,7 +235,7 @@ export default function body () {
 
              {/* início da tela do video] */}
 
-            <div className="bg-primary-orange h-80 flex pb-5 md:h-[50vh] justify-center md:justify-between pt-10 lg:pt-0">
+            <div className="bg-primary-orange h-80 flex pb-5 md:h-[50vh] justify-center md:justify-between pt-10 lg:pt-10">
                 <div className="font-bold text-gray  xl:mt-16 lg:text-4xl lg:ml-16">
                     <div className="mt-10 ">Desde 2019 <span className="font-semibold">atendendo</span><p>Dourados-MS e região!</p> </div>
                     <div className="border-2 md:border-4  mx-8 mt-2 rounded-md text-2xl md:mt-8 md:h-16 md:rounded-3xl"><p className="md:mt-3 md:font-black md:text-4xl">+3.000</p></div>
@@ -237,10 +253,10 @@ export default function body () {
              {/* início da tela de comentários */}
             <div className="bg-[url('/imgs/background7.png')] bg-cover bg-no-repeat h-full lg:h-[70vh] bg-right-bottom pb-10  lg:flex justify-between" >
               
-                 <div className=" lg:mt-36 xl:mt-10 lg:ml-10 xl:ml-7 pt-10">
-                    <div className="xl:pl-14"> 
-                        <h1 className="text-gray text-xl font-black">Avaliações da Girolux</h1>
-                        <div className="flex justify-center mt-3">
+                 <div className=" lg:mt-36 xl:mt-26 lg:ml-10 xl:ml-7 pt-10">
+                    <div className=""> 
+                        <h1 className="text-gray text-xl font-black lg:text-5xl lg:text-left">Avaliações da Girolux</h1>
+                        <div className="flex justify-left mt-3">
                             <p className="font-semibold text-gray text-3xl pt-1 pr-2">4,9</p>
                             <Image src={IconeEstrela} className="h-10 w-10"></Image>
                             <Image src={IconeEstrela} className="h-10 w-10"></Image>
@@ -250,11 +266,11 @@ export default function body () {
                         </div>
                     </div>
                    
-                    <div className="hidden lg:flex items-center">
-                    <div className=" flex justify-center align-middle items-center max-h-100 max-w-100">
-                        <Image className="scale-50" src={Google}></Image>
+                    <div className="hidden lg:flex items-center mt-20">
+                    <div className=" flex justify-center align-middle items-center">
+                        <Image className="" src={Google}></Image>
                     </div>
-                    <div className=" text-xsm md:text-lg text-gray w-[32vh]">
+                    <div className=" text-xsm md:text-lg text-gray w-[60vh] text-left ml-5">
                         <p className=" font-bold">Todas as avaliações são oficiais do Google.</p>
                         <p className="">Confira mais 90 comentários na página do Google, no termo de pesquisa: Girolux Dourados.</p>
                     </div>
