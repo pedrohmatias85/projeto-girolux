@@ -249,7 +249,7 @@ export default function body () {
             <div className="bg-white h-full bg-right-bottom xl:flex justify-between lg:pt-10 pb-10" >
               
                  <div className=" xl:mt-26 xl:ml-16 pt-10 ">
-                    <div className="flex flex-col "> 
+                    <div className="flex flex-col items-center xl:items-start pb-10"> 
                         <h1 className="text-gray text-xl font-black xl:text-5xl lg:text-left">Avaliações da Girolux</h1>
                         <div className="flex  mt-3">
                             <p className="font-semibold text-gray text-3xl pt-1 pr-2 lg:text-5xl">4,9</p>
@@ -261,7 +261,7 @@ export default function body () {
                         </div>
                     </div>
                    
-                    <div className="hidden xl:flex items-center mt-10">
+                    <div className="hidden xl:flex items-center">
                     <div className=" flex justify-center align-middle items-center">
                         <Image className="" src={Google}></Image>
                     </div>
