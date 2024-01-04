@@ -14,6 +14,7 @@ import IMGestrutura from '../assets/Imagemdainfraestrutura.png'
 import IMGCaixa from '../assets/Caixadefornecedores.png'
 import LogosDesktop from '../assets/LOGOS DESKTOP.png'
 import Google from '../assets/google.png'
+import InfraestruturaMobile from '../assets/infraestruturamobile.png'
 
 
 
@@ -33,8 +34,8 @@ export default function body () {
                 <Image className=' hidden md:block w-full' src={BackgroundDesktop}></Image>
                 <Botao></Botao>
             </div>
-            <div className="md:flex justify-between items-center 2xl:mt-10 ">
-            <div className="text-center text-gray font-extrabold text-lg md:flex-col md:pl-10 md:text-left md:text-2xl xl:text-4xl md:text-primary-orange pb-10 ">
+            <div className="md:flex justify-between items-center 2xl:mt-10 lg:pl-16 gap-5 ">
+            <div className="text-center text-gray font-extrabold text-lg md:flex-col  md:text-left md:text-2xl xl:text-4xl md:text-primary-orange pb-10 ">
                 <div>
                 <p>Está a procura de <span className="text-primary-orange font-extrabold md:bg-gray md:rounded-xl md:px-1"> materiais elétricos</span></p>
                 <p>para todas as fases da sua obra?</p>
@@ -52,17 +53,17 @@ export default function body () {
 
             <div className="text-center bg-primary-orange md:bg-white text-gray md:mr-16 pt-5 md:text-xl"> 
                 <div className=' md:flex gap-5'>
-                        <div className="bg-primary-orange flex md:flex-col text-center rounded-3xl  ">
-                            <div className="scale-50 md:scale-90 "><Image className="mt-3" src={AtendimentoIcon} alt="icone-atendimento"></Image></div>
-                            <div className="text-left md:text-center py-5 lg:px-5">
+                        <div className="bg-primary-orange flex md:flex-col text-center rounded-3xl max-h-[10%] ">
+                            <div className="scale-50 md:scale-90 flex justify-center lg:mt-3 "><Image className=" py-5 md:py-0"  src={AtendimentoIcon} alt="icone-atendimento"></Image></div>
+                            <div className="text-left md:text-center lg:py-5 lg:px-5 flex flex-col justify-center">
                                 <p className="font-bold lg:text-2xl">Atendimento de excelência</p>
                                 <p className="text-white">Profissionais capacitados com </p>
                                 <p className="text-white font-semibold">anos de experiência no mercado.</p>
                             </div>
                         </div>
                         <div className=" bg-primary-orange flex md:flex-col text-center rounded-3xl">
-                            <div className="scale-50 md:scale-90 "><Image className="mt-1" src={SeloQualidade} alt='icone-qualidade'></Image></div>
-                            <div className="text-left md:text-center mt-5 pt-2 lg:px-12">
+                            <div className="scale-50 md:scale-90 lg:mt-3 flex justify-center lg:mt-1"><Image className="pr-5 md:pr-0"  src={SeloQualidade} alt='icone-qualidade'></Image></div>
+                            <div className="text-left md:text-center py-5 lg:px-12">
                                 <p className="font-bold lg:text-2xl"> Produtos de qualidade</p>
                                 <p className="text-white">Encontre <span className="font-semibold">marcas renomadas</span></p>
                                 <p className="text-white font-semibold"> e garantia de fabricação</p>
@@ -83,54 +84,41 @@ export default function body () {
             
              {/*  Início da infraestrutura */}
 
-            <div className="mt-5 bg-primary-orange gap-6 ">
-                    <div className="pt-10 pl-5 text-white font-extrabold text-2xl xl:text-6xl text-left">
+            <div className="mt-5 bg-primary-orange gap-6 lg:pl-16 pl-3 md:pl-0">
+                    <div className="pt-10  text-white font-extrabold text-2xl xl:text-6xl text-left max-w-[50%]">
                         <p>Tudo em infraestrutura</p>   
                     </div>
-                    <div className="flex justify-between ">
-                <div className="text-left md:ml-20 pb-10 mr-10">
+                    <div className="flex justify-between">
+                <div className="text-left pb-10">
                    
-                    <div className="ml-5 text-gray flex font-medium text-sm xl:text-4xl gap-14 ">
-                        <div>
-                            <div className="mt- lg:mt-6  xl:mt-10">
-                                <p>Tubulação</p>
-                                <div className="bg-gray w-20 h-0.5 rounded-full mt-1"></div>
-                            </div>
-                            <div className="mt-">
-                                <p>Padrão</p>
-                                <p>de energia</p>
-                                <div className="bg-gray w-20 h-0.5 rounded-full mt-1"></div>
-                            </div>
-                            <div>
-                                <div>
-                                     <p>Eletrodutos</p>
-                                     <p>Corrugados</p>
-                                     <div className="bg-gray w-20 h-0.5 rounded-full mt-1"></div>
+                    <div className=" text-gray flex font-semibold text-sm lg:text-4xl gap-14">
+                        <div className=" flex flex-col lg:gap-10 pt-5 md:flex-row gap-3 lg:gap-5 xl:gap-36">
+                                <div className="flex flex-col gap-3 lg:gap-5 max-w-[100px] md:max-w-full justify-between">
+                                    <div className="lg:pt-5 xl:pt-0">
+                                        <p>Tubulação</p>
+                                        <div className="bg-gray w-10 h-0.5 rounded-full mt-1 lg:mt-5 xl:mt-1 lg:w-20 lg:h-1"></div>
+                                    </div>
+                                    <div className="">
+                                        <p>Padrão de energia</p>
+                                        <div className="bg-gray w-10 h-0.5 rounded-full mt-1 lg:w-20 lg:h-1"></div>
+                                    </div>
                                 </div>
-
-                                <div className="mt-">
-                                    <p>Quadros de distribuição</p>
-                                    <div className="bg-gray w-20 h-0.5 rounded-full mt-1"></div>
-                                </div>
-                            </div>       
-                                                
-                        </div>
-                        <div className="ml-5 pb-10 hidden lg:block">
-                            <div>
-                                <p>Eletrodutos</p>
-                                <p>Corrugados</p>
-                                <div className="bg-gray w-20 h-1 rounded-full mt-3"></div>
-                                <div className="mt-5">
-                                <p>Quadros</p>
-                                <p>de distribuição</p>
-                                <div className="bg-gray w-20 h-1 rounded-full mt-3"></div>
-                                </div>
-                            </div>       
-                        </div>     
+                                <div className="flex flex-col gap-5">
+                                    <div className="">
+                                        <p>Eletrodutos Corrugados</p>
+                                        <div className="bg-gray w-10 h-0.5 rounded-full mt-1 lg:w-20 lg:h-1"></div>
+                                    </div>
+                                    <div className="">
+                                        <p>Quadros de distribuição</p>
+                                        <div className="bg-gray w-10 h-0.5 rounded-full mt-1 lg:w-20 lg:h-1"></div>
+                                    </div> 
+                                </div>                          
+                        </div>   
                     </div>
                 </div>
-                <div className=" md:flex  flex items-end">
-                <Image src={IMGInfraestrutura} className="mt-4"></Image>
+                <div className="flex items-end lg:max-w-[40%]">
+                <Image src={IMGInfraestrutura} className="mt-4 hidden lg:block"></Image>
+                <Image src={InfraestruturaMobile} className="lg:hidden"></Image>
                 </div>
                 </div>
             </div>
@@ -160,10 +148,10 @@ export default function body () {
             {/* final da tela de tomadas */}
 
             {/* início da tela de iluminação */}
-                <div className="bg-notsowhite h-[60vh] flex justify-between">
+                <div className="bg-notsowhite flex justify-between">
                     <div className="md:ml-16 md:mt-10">
-                        <p className="text-primary-orange font-black text-2xl md:text-6xl pt-12 text-left pl-3">Iluminação</p>
-                        <div className="text-gray flex text-left text-sm md:text-4xl pl-3 gap-5  pt-2 md:pt-10 md:gap-10">
+                        <p className="text-primary-orange font-black text-2xl md:text-6xl pt-12 text-left ">Iluminação</p>
+                        <div className="text-gray flex text-left text-sm md:text-4xl gap-5  pt-2 md:pt-10 md:gap-10">
                             <div>
                                 <p>Lâmpadas</p>
                                 <div className="bg-primary-orange w-10 h-0.5 rounded-full md:w-20 md:h-1"></div>
@@ -180,7 +168,7 @@ export default function body () {
                             </div>
                         </div>    
                     </div>
-                    <div className="md:mr-16 flex scale-y-75 md:scale-y-100"><Image src={IMGLampadas} className=""></Image></div>
+                    <div className="md:mr-16 flex"><Image src={IMGLampadas} className=""></Image></div>
                 </div>
             {/* final da tela de iluminação */}
 
