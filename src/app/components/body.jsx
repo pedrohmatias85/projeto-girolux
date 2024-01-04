@@ -91,7 +91,7 @@ export default function body () {
                     <div className="flex justify-between">
                 <div className="text-left pb-10">
                    
-                    <div className=" text-gray flex font-semibold text-sm lg:text-4xl gap-14">
+                    <div className=" text-gray flex font-semibold text-sm lg:text-4xl gap-14 lg:mt-10">
                         <div className=" flex flex-col lg:gap-10 pt-5 md:flex-row gap-3 lg:gap-5 xl:gap-36">
                                 <div className="flex flex-col gap-3 lg:gap-5 max-w-[100px] md:max-w-full justify-between">
                                     <div className="lg:pt-5 xl:pt-0">
@@ -131,8 +131,8 @@ export default function body () {
                          <Image src={IMGtomadas}></Image>
                     </div>
 
-                    <div className=" text-left md:text-right pr-3 md:pr-14 xl:pr-16 md:pt-12 xl:pt-10">
-                        <div className="text-primary-orange pt-20 font-black md:text-6xl ">
+                    <div className=" text-left md:text-right pr-3 md:pr-14 xl:pr-16 md:pt-12 xl:pt-10 flex flex-col justify-center">
+                        <div className="text-primary-orange font-black md:text-6xl ">
                             <p> Interruptores</p>
                             <p className=""> e tomadas</p>
                         </div>
@@ -151,7 +151,7 @@ export default function body () {
                 <div className="bg-notsowhite flex justify-between">
                     <div className="ml-3 md:ml-16 md:mt-10">
                         <p className="text-primary-orange font-black text-2xl md:text-6xl pt-12 text-left ">Iluminação</p>
-                        <div className="text-gray flex text-left text-sm md:text-4xl gap-5  pt-2 md:pt-10 md:gap-10">
+                        <div className="text-gray flex text-left text-sm md:text-4xl gap-5 pt-5 md:pt-10 md:gap-10">
                             <div>
                                 <p>Lâmpadas</p>
                                 <div className="bg-primary-orange w-10 h-0.5 rounded-full md:w-20 md:h-1"></div>
@@ -188,8 +188,8 @@ export default function body () {
                                 <p>Elétricos</p>
                             </div>
                             <div className="text-gray text-sm font-medium text-left md:text-2xl text-right xl:text-3xl xl:mt-5">
-                                <p>Com as <span className="font-bold"> marcas preferidas </span>  </p>
-                                <p>pelos profissionais da área</p>
+                                <p>Com as <span className="font-bold"> marcas preferidas </span> pelos profissionais da área  </p>
+     
                                 <div className="bg-gray w-8 h-0.5 rounded-full mt-1 ml-32 md:w-16 md:h-1.5 md:ml-96 md:mt-1"></div>
                             </div>
                         </div>      
@@ -205,7 +205,7 @@ export default function body () {
                     <h1 className="text-2xl md:text-6xl font-black text-primary-orange">Industrial</h1>
                         <div className="text-gray text-sm mt-3 md:mt-10 md:text-4xl font-normal md:flex md:gap-20 gap-3">
 
-                        <div className=" flex flex-col lg:flex-row lg:gap-16">
+                        <div className=" flex flex-col lg:flex-row lg:gap-16 gap-3">
                             <div className="flex flex-col gap-3">
                                 <div>
                                     <p>Painéis de comando</p>
