@@ -7,18 +7,18 @@ import Link from "next/link"
 
 export default function Footer(){
    return(
-    <div className="bg-gray pt-3 px-4 lg:h-[35vh] flex flex-col justify-between pb-5 lg:pl-16">
+    <div className="bg-gray pt-3 px-4 lg:h-[35vh] flex flex-col justify-between pb-5 ">
      
-     <div className="lg:flex gap-32">
-            <div className="xl:text-xl text-white">
+     <div className="lg:flex gap-20 justify-center  ">
+            <div className="xl:text-xl text-white max-w-sm xl:max-w-lg">
                <h1 className="text-primary-orange text-lg lg:text-2xl font-bold pt-3">Girolux Materiais Elétricos</h1>
-               <p className="">Av. Weimar Gonçalves Torres, 2692 - Centro,Dourados - MS, 79800-024 </p>
+               <p className="">Av. Weimar Gonçalves Torres, 2692 - Centro, Dourados - MS, 79800-024 </p>
                <p className=""></p>
             </div>
             <div className="xl:text-xl text-white">
                <h1 className="text-primary-orange text-lg lg:text-2xl font-bold pt-3">Contato</h1>
                <div className=" flex pl-1">
-                  <Image src={iconezap}></Image>
+                  <div><Image src={iconezap}></Image></div>
                   <p className="text-white pl-2">(67) 3038-6433</p>
                </div>
             </div>

@@ -131,7 +131,7 @@ export default function body () {
                          <Image src={IMGtomadas}></Image>
                     </div>
 
-                    <div className=" text-left md:text-right md:pr-14 xl:pr-16 md:pt-12 xl:pt-10">
+                    <div className=" text-left md:text-right pr-3 md:pr-14 xl:pr-16 md:pt-12 xl:pt-10">
                         <div className="text-primary-orange pt-20 font-black md:text-6xl ">
                             <p> Interruptores</p>
                             <p className=""> e tomadas</p>
@@ -149,7 +149,7 @@ export default function body () {
 
             {/* início da tela de iluminação */}
                 <div className="bg-notsowhite flex justify-between">
-                    <div className="md:ml-16 md:mt-10">
+                    <div className="ml-3 md:ml-16 md:mt-10">
                         <p className="text-primary-orange font-black text-2xl md:text-6xl pt-12 text-left ">Iluminação</p>
                         <div className="text-gray flex text-left text-sm md:text-4xl gap-5  pt-2 md:pt-10 md:gap-10">
                             <div>
@@ -181,7 +181,7 @@ export default function body () {
                     <Image src={IMGCondutores}></Image>
                     </div>
 
-                    <div className="lg:pr-16">
+                    <div className="mr-3 lg:pr-16 flex justify-center items-center">
                         <div className="text-white text-2xl font-black text-left md:text-6xl md:mt-20 text-right">
                             <div>
                                 <p>Condutores</p>
@@ -199,13 +199,14 @@ export default function body () {
             {/* final da tela de condutores */}
         
             {/* começo da tela industrial */}
-                <div className="bg-white h-[42vh] md:h-[50vh] flex justify-between">
+                <div className="bg-white h-[42vh] md:h-[50vh] flex justify-between items-center">
                     
-                    <div className="text-left pt-14 xl:pt-20 ml-3 xl:ml-16">
+                    <div className="text-left ml-3 xl:ml-16">
                     <h1 className="text-2xl md:text-6xl font-black text-primary-orange">Industrial</h1>
-                        <div className="text-gray text-sm mt-3 md:mt-10 md:text-4xl font-normal md:flex md:gap-20">
-                        <div className=" flex gap-14">
-                            <div className="flex flex-col gap-8">
+                        <div className="text-gray text-sm mt-3 md:mt-10 md:text-4xl font-normal md:flex md:gap-20 gap-3">
+
+                        <div className=" flex flex-col lg:flex-row lg:gap-16">
+                            <div className="flex flex-col gap-3">
                                 <div>
                                     <p>Painéis de comando</p>
                                     <div className="bg-primary-orange w-10 h-0.5 rounded-full md:w-20 md:h-1"></div>
@@ -216,7 +217,7 @@ export default function body () {
                                 </div>
                             </div>
 
-                            <div className="flex flex-col gap-8">
+                            <div className="flex flex-col gap-3">
                                 <div>
                                     <p className="md:" >Eletrocalhas</p>
                                     <div className="bg-primary-orange w-10 h-0.5 rounded-full md:w-20 md:h-1"></div>
@@ -240,7 +241,7 @@ export default function body () {
 
              {/* início da tela do video] */}
 
-            <div className="bg-primary-orange flex pb-10 h-full justify-center md:justify-between pt-10 xl:pt-24">
+            <div className="bg-primary-orange flex pb-10 h-full justify-center md:justify-between pt-5 xl:pt-24">
                 <div className="font-bold text-gray lg:text-3xl xl:text-4xl lg:ml-16 lg:pt-2">
                     <div className="mt-10 ">Desde 2019 <span className="font-semibold">atendendo</span><p>Dourados-MS e região!</p> </div>
                     <div className="border-2 md:border-4  mx-8 mt-2 rounded-md text-2xl md:mt-8 md:h-16 md:rounded-3xl"><p className="md:mt-3 md:font-black md:text-4xl">+3.000</p></div>
@@ -288,7 +289,7 @@ export default function body () {
                             {/*<div className="bg-dark-orange h-16 w-16 rounded-full relative -bottom-20 left-4 md:left-16 md:mt-14"><p className="text-white pt-3.5 font-extrabold text-3xl">D</p></div>*/}
                             <div className="bg-gray max-w-xl pb-5 rounded-3xl">
                                 <h1 className="pt-2 md:text-xl md:font-bold">Daniel Manica</h1>
-                                <div className="text-xsm text-left md:mt-4 md:text-lg pl-20 pr-5" ><p>Tudo do gênero elétrico, melhor preço, garantia, ótimo atendimento e o melhor café da cidade</p></div>
+                                <div className="text-xsm text-center md:text-lg px-3 pt-3" ><p>Tudo do gênero elétrico, melhor preço, garantia, ótimo atendimento e o melhor café da cidade</p></div>
                             </div>
                         </div>
                         <div className="md:flex justify-center">
@@ -296,7 +297,7 @@ export default function body () {
                             <div className="bg-gray max-w-xl pb-5 rounded-3xl">
                                 <div className="gap-5">
                                     <h1 className="pt-2 md:text-xl md:font-bold">Simone Lima</h1>
-                                    <div className="text-xsm text-left md:text-lg pl-20 pr-5">
+                                    <div className="text-xsm text-center md:text-lg px-3 pt-3">
                                         <p>
                                         Excelente estabelecimento! Possui um ótimo atendimento, todos os
                                         funcionários são muito educados. Te tratam super bem tanto quando
