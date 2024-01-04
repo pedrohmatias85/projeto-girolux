@@ -84,15 +84,15 @@ export default function body () {
              {/*  Início da infraestrutura */}
 
             <div className="mt-5 bg-primary-orange gap-6 lg:pl-16 pl-3 md:pl-0">
-                    <div className="pt-10  text-white font-extrabold text-2xl xl:text-6xl text-left max-w-[50%]">
+                    <div className="pt-10  text-white font-extrabold text-2xl xl:text-6xl text-left max-w-sm">
                         <p>Tudo em infraestrutura</p>   
                     </div>
                     <div className="flex justify-between">
                 <div className="text-left pb-10">
                    
-                    <div className=" text-gray flex font-semibold text-sm lg:text-4xl gap-14 lg:mt-10">
-                        <div className=" flex flex-col lg:gap-10 pt-5 md:flex-row gap-3 lg:gap-5 xl:gap-36">
-                                <div className="flex flex-col gap-3 lg:gap-5 max-w-[100px] md:max-w-full justify-between">
+                    <div className=" text-gray flex font-medium text-sm lg:text-4xl gap-14 lg:mt-10">
+                        <div className=" flex flex-col lg:gap-20 pt-5 md:flex-row gap-3 lg:gap-5 xl:gap-36">
+                                <div className="flex flex-col gap-3 lg:gap-20 max-w-[100px] md:max-w-full justify-between">
                                     <div className="lg:pt-5 xl:pt-0">
                                         <p>Tubulação</p>
                                         <div className="bg-gray w-10 h-0.5 rounded-full mt-1 lg:mt-5 xl:mt-1 lg:w-20 lg:h-1"></div>
@@ -102,7 +102,7 @@ export default function body () {
                                         <div className="bg-gray w-10 h-0.5 rounded-full mt-1 lg:w-20 lg:h-1"></div>
                                     </div>
                                 </div>
-                                <div className="flex flex-col gap-5">
+                                <div className="flex flex-col gap-3 lg:gap-20">
                                     <div className="">
                                         <p>Eletrodutos Corrugados</p>
                                         <div className="bg-gray w-10 h-0.5 rounded-full mt-1 lg:w-20 lg:h-1"></div>
@@ -198,14 +198,14 @@ export default function body () {
             {/* final da tela de condutores */}
         
             {/* começo da tela industrial */}
-                <div className="bg-white h-[42vh] md:h-[50vh] flex justify-between items-center lg:pt-20">
+                <div className="bg-white h-[42vh] md:h-[50vh] flex justify-between ">
                     
-                    <div className="text-left ml-3 xl:ml-16">
+                    <div className="text-left ml-3 xl:ml-16 pt-10 lg:ml-16">
                     <h1 className="text-2xl md:text-6xl font-black text-primary-orange">Industrial</h1>
                         <div className="text-gray text-sm mt-3 md:mt-10 md:text-4xl font-normal md:flex md:gap-20 gap-3">
 
-                        <div className=" flex flex-col lg:flex-row lg:gap-16 gap-3">
-                            <div className="flex flex-col gap-3">
+                        <div className=" flex flex-col lg:flex-row lg:gap-10 gap-3">
+                            <div className="flex flex-col gap-3 lg:gap-20">
                                 <div>
                                     <p>Painéis de comando</p>
                                     <div className="bg-primary-orange w-10 h-0.5 rounded-full md:w-20 md:h-1"></div>
@@ -216,7 +216,7 @@ export default function body () {
                                 </div>
                             </div>
 
-                            <div className="flex flex-col gap-3">
+                            <div className="flex flex-col gap-3 lg:gap-20 justify-center lg:mt-7 xl:mt-0">
                                 <div>
                                     <p className="md:" >Eletrocalhas</p>
                                     <div className="bg-primary-orange w-10 h-0.5 rounded-full md:w-20 md:h-1"></div>
