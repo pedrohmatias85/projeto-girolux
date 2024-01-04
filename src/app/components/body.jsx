@@ -73,7 +73,7 @@ export default function body () {
             </div>
             {/*  Final da primeira tela */}
 
-            <div className="mt-2 flex justify-center md:mt-10">
+            <div className="mt-2 flex justify-center items-end md:mt-10">
                 <div className="bg-primary-orange w-1.5 h-14 rounded-full mt-2 md:hidden "></div>
                 <div className="text-left md:text-center ml-2 ">
                     <h1 className="font-extrabold text-gray mt-6 text-xl md:font-black md:text-4xl">Está construindo ou reformando?</h1>
@@ -241,8 +241,8 @@ export default function body () {
              {/* início da tela do video] */}
 
             <div className="bg-primary-orange flex pb-10 h-full justify-center md:justify-between pt-5 lg:pt-24">
-                <div className="font-bold text-gray lg:text-3xl xl:text-4xl lg:ml-16 lg:pt-2">
-                    <div className="mt-10 ">Desde 2019 <span className="font-semibold">atendendo</span><p>Dourados-MS e região!</p> </div>
+                <div className="font-bold text-gray lg:text-3xl xl:text-4xl lg:ml-16 lg:pt-2 flex justify-center items-center flex-col">
+                    <div className=" ">Desde 2019 <span className="font-semibold">atendendo</span><p>Dourados-MS e região!</p> </div>
                     <div className="border-2 md:border-4  mx-8 mt-2 rounded-md text-2xl md:mt-8 md:h-16 md:rounded-3xl"><p className="md:mt-3 md:font-black md:text-4xl">+3.000</p></div>
                     <p className="font-semibold md:mt-5">Clientes cadastrados</p>
                 </div>
