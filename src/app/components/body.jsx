@@ -125,7 +125,7 @@ export default function body () {
              {/*  Final da infraestrutura */}
 
              {/* início da tela de tomadas */}
-                <div className="bg-white h-[45vh] md:h-[50vh] flex justify-between">
+                <div className="bg-white flex justify-between">
                     <div className="xl:mt- xl:ml-20 mt-10  ">
                          <Image src={IMGtomadas}></Image>
                     </div>
