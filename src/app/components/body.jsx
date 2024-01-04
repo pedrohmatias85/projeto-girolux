@@ -182,12 +182,12 @@ export default function body () {
                     </div>
 
                     <div className="mr-3 lg:pr-16 flex justify-center items-center">
-                        <div className="text-white text-2xl font-black text-left md:text-6xl md:mt-20 text-right">
+                        <div className="text-white text-2xl font-black text-left md:text-6xl text-right">
                             <div>
                                 <p>Condutores</p>
                                 <p>Elétricos</p>
                             </div>
-                            <div className="text-gray text-sm font-medium text-left md:text-2xl text-right xl:text-3xl xl:mt-5">
+                            <div className="text-gray text-sm font-medium text-left md:text-2xl text-right xl:text-3xl xl:mt-5 max-w-md">
                                 <p>Com as <span className="font-bold"> marcas preferidas </span> pelos profissionais da área  </p>
      
                                 <div className="bg-gray w-8 h-0.5 rounded-full mt-1 ml-32 md:w-16 md:h-1.5 md:ml-96 md:mt-1"></div>
@@ -199,7 +199,7 @@ export default function body () {
             {/* final da tela de condutores */}
         
             {/* começo da tela industrial */}
-                <div className="bg-white h-[42vh] md:h-[50vh] flex justify-between items-center">
+                <div className="bg-white h-[42vh] md:h-[50vh] flex justify-between items-center lg:pt-20">
                     
                     <div className="text-left ml-3 xl:ml-16">
                     <h1 className="text-2xl md:text-6xl font-black text-primary-orange">Industrial</h1>
@@ -241,7 +241,7 @@ export default function body () {
 
              {/* início da tela do video] */}
 
-            <div className="bg-primary-orange flex pb-10 h-full justify-center md:justify-between pt-5 xl:pt-24">
+            <div className="bg-primary-orange flex pb-10 h-full justify-center md:justify-between pt-5 lg:pt-24">
                 <div className="font-bold text-gray lg:text-3xl xl:text-4xl lg:ml-16 lg:pt-2">
                     <div className="mt-10 ">Desde 2019 <span className="font-semibold">atendendo</span><p>Dourados-MS e região!</p> </div>
                     <div className="border-2 md:border-4  mx-8 mt-2 rounded-md text-2xl md:mt-8 md:h-16 md:rounded-3xl"><p className="md:mt-3 md:font-black md:text-4xl">+3.000</p></div>
@@ -257,7 +257,7 @@ export default function body () {
              {/* final da tela do vídeo */}
 
              {/* início da tela de comentários */}
-            <div className="bg-white h-full bg-right-bottom xl:flex justify-between lg:pt-8 pb-10" >
+            <div className="bg-white h-full bg-right-bottom xl:flex justify-between lg:pt-8 pb-10 xl:my-10" >
               
                  <div className=" xl:mt-26 xl:ml-16 pt-10 ">
                     <div className="flex flex-col items-center xl:items-start pb-10"> 
