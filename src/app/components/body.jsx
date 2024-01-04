@@ -248,8 +248,8 @@ export default function body () {
                 </div>
                 <div className="mt-5 xl:mr-16">
                 <p className="text-white hidden lg:block">Confira o depoimento dos nossos clientes e parceiros!</p>
-                <iframe  className="hidden lg:block " width="560" height="315" src="https://www.youtube.com/embed/0tOXxuLcaog?si=8fax3OgsGMsYPYbj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                <iframe  className="px-3 w-32 md:w-auto xl:w-auto md:hidden"src="https://www.youtube.com/embed/_EgU_7rzkEo?si=42zhpNmclXlGxeyM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe className="hidden md:block" width="560" height="315" src="https://www.youtube.com/embed/VSO1BAx1xvo?si=RaaRkgFs2KgkwQKg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe className="md:hidden ml-3"width="150" height="315" src="https://www.youtube.com/embed/a5ssHQaC0qc?si=KwbGu61PEv0eNKX8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 </div>
             </div>
 
