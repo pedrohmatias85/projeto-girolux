@@ -35,23 +35,22 @@ export default function body () {
                 <Botao></Botao>
             </div>
             <div className="md:flex justify-between items-center 2xl:mt-10 lg:pl-16 gap-5 ">
-            <div className="text-center text-gray font-extrabold text-lg md:flex-col  md:text-left md:text-2xl xl:text-4xl md:text-primary-orange pb-10 ">
-                <div>
-                <p>Está a procura de <span className="text-primary-orange font-extrabold md:bg-gray md:rounded-xl md:px-1"> materiais elétricos</span></p>
-                <p>para todas as fases da sua obra?</p>
-                </div>
+            <div className="text-center text-gray font-extrabold text-lg md:flex-col  md:text-left md:text-2xl xl:text-4xl md:text-primary-orange pb-10 flex flex-col items-center lg:items-start ">
+                    <div>
+                        <p>Está a procura de <span className="text-primary-orange font-extrabold md:bg-gray md:rounded-xl md:px-1"> materiais elétricos</span></p>
+                        <p>para todas as fases da sua obra?</p>
+                    </div>
 
-                <div>
-                
-                <div className="bg-primary-orange ml-40 w-14 h-1.5 rounded-full mt-2 md:hidden "></div>
-                <p className="font-bold md:text-left md:text-gray md:font-normal xl:text-3xl">Prazer, somos a <span className="md:font-bold">Girolux!</span></p> 
-                <div className="bg-gray w-16 h-1 rounded-full hidden md:block"></div>
-             
-                </div>
+                <div className="bg-primary-orange  w-14 h-1.5 rounded-full my-2 md:hidden "></div>
+
+                    <div className="lg:mt-5">
+                        <p className="font-bold md:text-left md:text-gray md:font-normal xl:text-3xl">Prazer, somos a <span className="md:font-bold">Girolux!</span></p>
+                        <div className="bg-gray w-16 h-1 rounded-full hidden md:block"></div>
+                    </div>
 
             </div>
 
-            <div className="text-center bg-primary-orange md:bg-white text-gray md:mr-16 pt-5 md:text-xl"> 
+            <div className="text-center bg-primary-orange md:bg-white text-gray md:mr-16 py-5 md:text-xl"> 
                 <div className=' md:flex gap-5'>
                         <div className="bg-primary-orange flex md:flex-col text-center rounded-3xl max-h-[10%] ">
                             <div className="scale-50 md:scale-90 flex justify-center lg:mt-3 "><Image className=" py-5 md:py-0"  src={AtendimentoIcon} alt="icone-atendimento"></Image></div>
@@ -173,11 +172,11 @@ export default function body () {
             {/* final da tela de iluminação */}
 
             {/* incio da tela de condutores */}
-                <div className="bg-primary-orange h-[35vh] md:h-[55vh] flex justify-between">
+                <div className="bg-primary-orange flex justify-between ">
                 <div className="hidden" ><Botao></Botao></div>
 
                 
-                    <div className="flex items-end">
+                    <div className="flex items-end pt-10">
                     <Image src={IMGCondutores}></Image>
                     </div>
 
@@ -343,8 +342,8 @@ export default function body () {
                 </div>
 
                 <div className="pt-10 pb-5 flex justify-center md:mt-14 xl:mt-40">
-                    <Image src={IconeEmpresas} className="md:hidden"></Image> {/* ícones Novos */}
-                    <Image src={LogosDesktop} className="hidden md:block"></Image>
+                    <Image src={IconeEmpresas} className="md:hidden" alt='ícone empresas'></Image> {/* ícones Novos */}
+                    <Image src={LogosDesktop} className="hidden md:block" alt='ícone empresas'></Image>
 
                 </div>
             </div>
@@ -353,6 +352,3 @@ export default function body () {
         </div>
     )
 }
-
-
-
