@@ -50,7 +50,7 @@ export default function body () {
 
             </div>
 
-            <div className="text-center bg-primary-orange md:bg-white text-gray md:mr-16 py-5 md:text-xl"> 
+            <div className="text-center bg-primary-orange md:bg-white text-gray md:mt-10 md:mr-16 py-5 md:text-xl"> 
                 <div className=' md:flex gap-5'>
                         <div className="bg-primary-orange flex md:flex-col text-center rounded-3xl max-h-[10%] ">
                             <div className="scale-50 md:scale-90 flex justify-center lg:mt-3 "><Image className=" py-5 md:py-0"  src={AtendimentoIcon} alt="icone-atendimento"></Image></div>
@@ -198,7 +198,7 @@ export default function body () {
             {/* final da tela de condutores */}
         
             {/* começo da tela industrial */}
-                <div className="bg-white h-[42vh] md:h-[50vh] flex justify-between ">
+                <div className="bg-white  flex justify-between ">
                     
                     <div className="text-left ml-3 xl:ml-16 pt-10 lg:ml-16">
                     <h1 className="text-2xl md:text-6xl font-black text-primary-orange">Industrial</h1>
@@ -325,8 +325,8 @@ export default function body () {
             
             <div className="bg-primary-orange md:pt-5 xl:pt-10">
                 <div className="md:hidden"><Botao></Botao></div>
-                <div className=" md:h-[32vh] flex lg:justify-between justify-center">
-                    <div className=" xl:pt-32 md:text-left md:mt-5 lg:pl-16">
+                <div className="flex lg:justify-between justify-center">
+                    <div className="md:text-left lg:pl-16 flex flex-col justify-center">
                         <h1 className="text-gray font-black text-2xl md:text-5xl ">
                             <p>Em parceria com</p>
                             <p>renomados fornecedores!</p>
@@ -341,8 +341,8 @@ export default function body () {
                     </div>
                 </div>
 
-                <div className="pt-10 pb-5 flex justify-center md:mt-14 xl:mt-40">
-                    <Image src={IconeEmpresas} className="md:hidden" alt='ícone empresas'></Image> {/* ícones Novos */}
+                <div className=" pt-10pb-5 flex justify-center">
+                    <Image src={IconeEmpresas} className="md:hidden" alt='ícone empresas'></Image>
                     <Image src={LogosDesktop} className="hidden md:block" alt='ícone empresas'></Image>
 
                 </div>
